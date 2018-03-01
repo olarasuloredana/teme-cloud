@@ -1,0 +1,141 @@
+INFO:root:INDEX view entered.
+INFO:root:LOGIN view entered.
+INFO:root:loredana_olarasu@yahoo.com logged in.
+INFO:root:Getting credentials...
+INFO:root:Credentials done.
+INFO:root:Credentials authorized.
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0
+Traceback (most recent call last):
+  File "C:\Users\lolarasu\AppData\Local\Programs\Python\Python35\lib\site-packages\googleapiclient\discovery_cache\__init__.py", line 36, in autodetect
+    from google.appengine.api import memcache
+ImportError: No module named 'google.appengine'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lolarasu\AppData\Local\Programs\Python\Python35\lib\site-packages\googleapiclient\discovery_cache\file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client.contrib.locked_file'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lolarasu\AppData\Local\Programs\Python\Python35\lib\site-packages\googleapiclient\discovery_cache\file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client.locked_file'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lolarasu\AppData\Local\Programs\Python\Python35\lib\site-packages\googleapiclient\discovery_cache\__init__.py", line 41, in autodetect
+    from . import file_cache
+  File "C:\Users\lolarasu\AppData\Local\Programs\Python\Python35\lib\site-packages\googleapiclient\discovery_cache\file_cache.py", line 41, in <module>
+    'file_cache is unavailable when using oauth2client >= 4.0.0')
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/gmail/v1/rest
+INFO:root:API built.
+INFO:root:Message created.
+INFO:googleapiclient.discovery:URL being requested: POST https://www.googleapis.com/gmail/v1/users/me/messages/send?alt=json
+INFO:root:Message [Id: 161e0b129b192f44] sent to loredana_olarasu@yahoo.com
+INFO:root:CHOOSE view entered.
+INFO:root:earthquakes selected.
+INFO:root:Earthquakes between 2018-03-01T06:33:20 and 2018-03-01T10:33:20:
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): earthquake.usgs.gov
+DEBUG:requests.packages.urllib3.connectionpool:https://earthquake.usgs.gov:443 "GET /fdsnws/event/1/query?format=geojson&starttime=2018-03-01T06:33:20 HTTP/1.1" 200 1309
+INFO:root:M 2.0 - 10km SW of Leilani Estates, Hawaii added to earthquake list.
+INFO:root:M 1.9 - 19km SSE of Fort Irwin, CA added to earthquake list.
+INFO:root:M 1.8 - 29km NW of Valdez, Alaska added to earthquake list.
+INFO:root:M 1.2 - 7km NW of The Geysers, CA added to earthquake list.
+INFO:root:M 1.4 - 20km SSW of Ludlow, CA added to earthquake list.
+INFO:root:M 1.2 - 6km NNE of Moreno Valley, CA added to earthquake list.
+INFO:root:M 1.6 - 38km NNE of Sutton-Alpine, Alaska added to earthquake list.
+INFO:root:M 0.8 - 6km NNE of Moreno Valley, CA added to earthquake list.
+INFO:root:earthquakes list obtained successfuly.
+INFO:root:Getting credentials...
+INFO:root:Credentials done.
+INFO:root:Credentials authorized.
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0
+Traceback (most recent call last):
+  File "C:\Users\lolarasu\AppData\Local\Programs\Python\Python35\lib\site-packages\googleapiclient\discovery_cache\__init__.py", line 36, in autodetect
+    from google.appengine.api import memcache
+ImportError: No module named 'google.appengine'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lolarasu\AppData\Local\Programs\Python\Python35\lib\site-packages\googleapiclient\discovery_cache\file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client.contrib.locked_file'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lolarasu\AppData\Local\Programs\Python\Python35\lib\site-packages\googleapiclient\discovery_cache\file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client.locked_file'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lolarasu\AppData\Local\Programs\Python\Python35\lib\site-packages\googleapiclient\discovery_cache\__init__.py", line 41, in autodetect
+    from . import file_cache
+  File "C:\Users\lolarasu\AppData\Local\Programs\Python\Python35\lib\site-packages\googleapiclient\discovery_cache\file_cache.py", line 41, in <module>
+    'file_cache is unavailable when using oauth2client >= 4.0.0')
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/gmail/v1/rest
+INFO:root:API built.
+INFO:root:Message created.
+INFO:googleapiclient.discovery:URL being requested: POST https://www.googleapis.com/gmail/v1/users/me/messages/send?alt=json
+INFO:root:Message [Id: 161e0b1bd2393294] sent to loredana_olarasu@yahoo.com
+INFO:root:BACK view entered.
+INFO:root:CHOOSE view entered.
+INFO:root:other_hazzards selected.
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.sigimera.org
+DEBUG:requests.packages.urllib3.connectionpool:https://api.sigimera.org:443 "GET /v1/crises?auth_token=eHRiEPDd3HesnU9diPv4 HTTP/1.1" 200 6718
+INFO:root:Green earthquake alert (Magnitude 6.1M, Depth:16km) in Papua New Guinea 28/02/2018 02:45 UTC, 400000 people within 100km. added to hazzards list.
+INFO:root:Green earthquake alert (Magnitude 6.1M, Depth:10km) in West Of Macquarie Island 27/02/2018 17:29 UTC, No people within 100km. added to hazzards list.
+INFO:root:Green earthquake alert (Magnitude 5.6M, Depth:10km) in Papua New Guinea 27/02/2018 06:19 UTC, 740000 people within 100km. added to hazzards list.
+INFO:root:Green earthquake alert (Magnitude 5.5M, Depth:196.49km) in Vanuatu 27/02/2018 05:17 UTC, About 36000 people within 100km. added to hazzards list.
+INFO:root:Green earthquake alert (Magnitude 5.5M, Depth:31.03km) in Papua New Guinea 26/02/2018 18:28 UTC, 610000 people within 100km. added to hazzards list.
+INFO:root:Orange earthquake alert (Magnitude 6.2M, Depth:13.81km) in Papua New Guinea 26/02/2018 15:17 UTC, 800000 people within 100km. added to hazzards list.
+INFO:root:Green earthquake alert (Magnitude 6M, Depth:6.3km) in Indonesia 26/02/2018 13:34 UTC, 130000 people within 100km. added to hazzards list.
+INFO:root:Green earthquake alert (Magnitude 5.7M, Depth:13.33km) in Papua New Guinea 26/02/2018 11:56 UTC, 880000 people within 100km. added to hazzards list.
+INFO:root:Green earthquake alert (Magnitude 6M, Depth:23.64km) in Papua New Guinea 26/02/2018 08:26 UTC, 900000 people within 100km. added to hazzards list.
+INFO:root:Green earthquake alert (Magnitude 5.6M, Depth:35km) in Papua New Guinea 26/02/2018 04:41 UTC, About 62000 people within 100km. added to hazzards list.
+INFO:root:other_hazzards list obtained successfuly.
+INFO:root:Getting credentials...
+INFO:root:Credentials done.
+INFO:root:Credentials authorized.
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0
+Traceback (most recent call last):
+  File "C:\Users\lolarasu\AppData\Local\Programs\Python\Python35\lib\site-packages\googleapiclient\discovery_cache\__init__.py", line 36, in autodetect
+    from google.appengine.api import memcache
+ImportError: No module named 'google.appengine'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lolarasu\AppData\Local\Programs\Python\Python35\lib\site-packages\googleapiclient\discovery_cache\file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client.contrib.locked_file'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lolarasu\AppData\Local\Programs\Python\Python35\lib\site-packages\googleapiclient\discovery_cache\file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client.locked_file'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lolarasu\AppData\Local\Programs\Python\Python35\lib\site-packages\googleapiclient\discovery_cache\__init__.py", line 41, in autodetect
+    from . import file_cache
+  File "C:\Users\lolarasu\AppData\Local\Programs\Python\Python35\lib\site-packages\googleapiclient\discovery_cache\file_cache.py", line 41, in <module>
+    'file_cache is unavailable when using oauth2client >= 4.0.0')
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/gmail/v1/rest
+INFO:root:API built.
+INFO:root:Message created.
+INFO:googleapiclient.discovery:URL being requested: POST https://www.googleapis.com/gmail/v1/users/me/messages/send?alt=json
+INFO:root:Message [Id: 161e0b1d0db38bd9] sent to loredana_olarasu@yahoo.com

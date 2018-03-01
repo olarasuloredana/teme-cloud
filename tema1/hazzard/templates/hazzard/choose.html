@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Tema 1</title>
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'hazzard/style.css' %}">
+    </head>
+    <body>
+        <p id = "emailul">You are signed in as <b>{{email}}</b></p>
+        <a href="{% url 'hazzard:index' %}">Logout</a>
+        <br><br>
+        <p class = "center"><b>Please choose what you want to receive in your e-mail:</b></p>
+        <form action="{% url 'hazzard:choose' %}" method="post">
+        {% csrf_token %}
+            <input type="hidden" name="email" value="{{ email }}">
+            <input type="submit" name="earthquakes" value="Earthquakes from the last 4 hours"><br><br><br>
+            <input type="submit" name="other_hazzards" value="The last 10 hazzards around the world"><br>
+        </form>
+    </body> 
+</html>
