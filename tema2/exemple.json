@@ -1,0 +1,39 @@
+#### PUT locatii
+
+[
+    {
+        "distanta": 635,
+        "nume": "Timisoara",
+        "descriere": "Timisoara este al doilea oras ca marime din Romania si este un important centru economic in vestul tarii. Orasul a fost construit peste o cetate romana antica, iar prima atestare documentara dateaza din secolul XII.",
+        "id": 1
+    },
+    {
+        "distanta": 452,
+        "nume": "Constanta",
+        "descriere": "Constanta este un oras efervescent, ce imbina istoria milenara cu modernismul. Constanta isi primeste oaspetii cu bratele deschise, cu mult farmec si cu locuri surprinzatoare. Este un oras care celebreaza multiculturalismul, un oras in care civilizatia orientala se intalneste si se impleteste cu cea occidentala pentru a genera un spirit spectaculos si plin de viata.",
+        "id": 2
+    }
+]
+
+
+### PUT filme
+
+[
+    {
+        "id": 1,
+        "nume": "Divergent"
+    },
+    {
+        "id": 2,
+        "nume": "The Notebook"
+    }
+]
+
+### PUT locatii 10
+
+{
+    "distanta": 635,
+    "nume": "Timisoara",
+    "descriere": "Timisoara este al doilea oras ca marime din Romania si este un important centru economic in vestul tarii. Orasul a fost construit peste o cetate romana antica, iar prima atestare documentara dateaza din secolul XII.",
+    "id": 10
+}
